@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "lib": ["ESNext", "DOM", "DOM.Iterable"],
+        "module": "CommonJS",
+        "outDir": "out",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "declaration": true,
+        "baseUrl": ".",
+        "paths": {},
+        "typeRoots": ["node_modules/@types"],
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "__test__",
+        "node_modules"
+    ]
+}
